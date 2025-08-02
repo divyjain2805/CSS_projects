@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.header1 {
+display: flex;
+width: 100%;
+box-sizing: border-box;
+justify-content: space-between;
+align-items: center;
+background-color: peachpuff;
+padding:10px;
+padding-left: 40px;
+}
+
+.logo-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input {
+    /* padding-top: 30px; */
+    margin-left: 10px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    vertical-align: middle;
+    border-radius: 3px;
+    height: 40px;
+    width: 550px;
+    
+}
+
+.loc-sign-menu {
+    padding-right: 60px;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+
+}
+
+#Loc , #Menu {
+background-color: white;
+color: black;
+width: 50px;
+}
+
+
+/* ################### */
+
+.header2-1 {
+    display: flex;
+    background: rgb(245, 245, 245);
+    /* background-color: yellowgreen; */
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 55px;
+    
+}
+
+.left > a {
+    text-decoration: none;
+    margin-right: 15px;
+    /* color: rgb(104, 104, 104); */
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.right > a {
+    text-decoration: none;
+    margin-right: 15px;
+    /* color: rgb(104, 104, 104); */
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* ################### */
+
+
+.content {
+    padding-left: 40px;
+    width: 95%;
+    margin-bottom: 50px;
+}
+.content-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 8px;
+    
+}
+
+
+.content-title > p {
+padding-top: 6px;
+padding-right: 50px;
+color: red;
+cursor: pointer;
+}
+
+.content-title > h2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content-cards {
+    padding-left: 20px;
+    display: flex;
+    overflow-x:scroll;
+    
+}
+.card {
+    
+    /* background-color: red; */
+    width: 237px;
+    height: 475px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+
+.card > img {
+    height: 400px;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+
+
+
+/* ######################### */
+
+.promotion {
+    display: flex;
+    max-width: 80%;
+    padding-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.minicard {
+    height: 250px;
+    width: 250px;
+    
+}
+
+.minicard > img {
+    height: 240px;
+    width: 250px;
+
+}
+
+
+/* ##################### */
+
+
+.content-premiere {
+    background-color: rgb(43, 49, 72);
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.pre-card {
+    margin-right: 60px;
+}
+
+
+
+/* ##################### */
+
+.trending-now {
+    margin-left: 40px;
+}
+.trending-things {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+
+}
+
+.trending-infos {
+    padding: 15px;
+    background: rgb(245, 245, 245);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.trending-infos > h3 {
+color: red;
+}

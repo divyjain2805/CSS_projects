@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("./1bgimg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+    
+}
+
+.main .box {
+    height: 700px;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    z-index:1;
+    top: 0;
+}
+
+
+nav {
+    max-width:80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+
+nav img {
+    color: red;
+    height: 140px;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    height: 70%;
+    gap: 25px;
+}
+
+.info > :first-child {
+    font-size: 48px;
+    font-weight: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info > :nth-child(2) {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.line1 {
+margin-top: 130px; 
+height: 5px;
+background-color: red;
+position: relative;
+z-index: 10;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+background: linear-gradient(to right, rgba(33, 13, 22, 0) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 0) 84%);
+
+}
+
+/* .line2 {
+    
+    height: 100px;
+    background-color: red;
+   
+    position: relative;
+    z-index: 10;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    color: white;
+} */
+
+.button {
+    padding: px;
+    font-weight:bolder;
+    background-color: white;
+    color: white;
+}
+
+.button-sign {
+background-color: none;
+border: 1 solid transparent;
+background-color: transparent;
+border-radius: 5px;
+width: 90px;
+padding: 5px;
+font-weight: 100;
+
+}
+
+.button-get {
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size:20px;
+    font-weight: 100;
+
+}
+
+.button-log {
+    background-color: red;
+    border: 1 solid transparent;
+    border-radius: 5px;
+    width: 70px;
+    padding: 5px;
+    
+}
+
+.b-input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: 1 solid transparent;
+    background-color: rgba(112, 108, 108, 0.2);
+}
+
+
+.first-H {
+    /* position: absolute; */   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.H-vid {
+    position: absolute;
+}
+
+.H-vid video {
+    position: relative;
+    left: 75px;
+    bottom: 385px;
+    z-index: -1;
+}
+
+.H-info > span > p {
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.H-info > p {
+   font-size: 20px;
+}
+
+.line2 {
+    background-color: rgba(201, 193, 193,0.5);
+    height: 3px;
+    width: 100%;
+    z-index: 10;
+
+}
+
+.H-vid2 {
+    height: 300px;
+    width: 500px;
+    
+}
+
+.H-img2 {
+    height: 450px;
+    width: 600px;
+}
+
+
+
+.doubts {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 30px;
+    font-size: 50px;
+}
+
+.only-que {
+    display:inline-block;
+}
+
+.doubts-que {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:fre;
+    height: 60px;
+    width: 900px;
+    padding: 10px;
+    margin: 30px;
+    background-color: rgba(112, 108, 108, 0.4);
+    border-radius: 5px;
+}
+
+.doubts-que:hover {
+    background-color: rgba(112, 108, 108, 0.6);
+    transition: all 1s ;
+}
+
+.doubts-que > a {
+     color: white;
+     text-decoration: none;
+     font-size: 30px;
+     padding-left: 25px;
+     padding-right: 10px;
+     
+}
+
+footer {
+    color: white;
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   padding-left: 50px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+}
+
+.footer-item > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+
+

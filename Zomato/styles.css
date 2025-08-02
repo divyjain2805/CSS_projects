@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+}
+
+body {
+     background-color: rgb(253, 243, 243);
+}
+
+.box {
+    display: inline-block;
+}
+
+
+.card {
+    display: inline-block;
+ /* so koi bhi box se bahar ni jaye */
+
+ margin-left: 30px;
+ margin-top: 10px;
+ cursor: pointer;
+
+ border: 10px solid rgb(253, 243, 243);
+ /* border se card ki image nahi hilegi */
+
+
+}
+
+.card:hover {
+     background-color: white;
+     border: 10px solid white;
+     /* also for stable image and  */
+
+     border-radius: 10px;
+}
+
+.image {
+    position: relative;
+    /* for off */
+}
+
+.img {
+ height: 300px;
+ width: 300px; 
+ border-radius: 20px; 
+ 
+}
+
+
+.off {
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.5);
+    
+    position: absolute;
+    /* image k relative absolute hai */
+
+    bottom: 40px;
+    
+}
+
+.restaurant , .food  , .location {
+   position: relative;
+   /* for rating k liye */
+
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.restro-name {
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+.restro-rate {
+    background-color: green;
+    color: white;
+    height: 15px;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.food-price , .loc-distance {
+    position: absolute;
+    right: 5px;
+}
+
+.food-name , .loc-name {
+     font-size: 15px;
+     color: rgb(101, 99, 99);
+}
+
+.loc-distance {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.head {
+    background-color: white;
+}
+
+.head-1 , .head-2 {
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+.head-brand {
+    color: red;
+    margin-right: 200px;
+    /* margin-left:100px ; */
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.searching {
+    width: 300px;
+    height: 30px;
+    margin-right: 300px;
+    position: relative;
+    bottom: 5px;
+}
+
+.head-login , .head-signin {
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(101, 99, 99);
+
+}
+
+.head-signin:hover , .head-login:hover {
+    color: black;
+}
+
+.head-3 {
+    margin-left: 200px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.hone:hover ,.din-text:hover {
+    color: red;
+}
+
+.imgofdin {
+     height: 50px;
+     width: 50px;
+    
+    
+}
+
+.din-text {
+    position: relative;
+    bottom: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.head-dines {
+    margin-right: 30px;
+    
+}
+
+.head-4 {
+    background-color:rgb(224, 223, 220);
+    height: 450px;
+    
+}
+
+.head-collection , .head-para-info , .head-colloction-img {
+    margin-left: 200px;
+    margin-top: 5px;
+
+}
+
+.head-para-info {
+    margin-top: 20px;
+
+}
+
+.head-follows {
+    font-size: 20px;
+    color: gray;
+}
+
+.head-more {
+    color: rgb(225, 84, 84);
+    margin-left:300px;
+    font-size: 20px;
+}
+
+.head-more :hover {
+    color: red;
+}
+
+.collection-img {
+    position: relative;
+    /* for off */
+}
+
+.c-img {
+    height: 350px;
+    width: 278px;  
+    padding-right: 15px; 
+    cursor: pointer;
+    
+   }
+   
+.c-img-text {
+       font-size: 20px;
+       color: white;
+       
+       position: absolute;
+       /* image k relative absolute hai */
+   
+       bottom: 30px;
+       left: 15px;
+   }
+
+.c-img-places {
+    font-size: 15px;
+    color: white;
+    
+    position: absolute;
+    /* image k relative absolute hai */
+
+    bottom: 10px;
+    left: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+

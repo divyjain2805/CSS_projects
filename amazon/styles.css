@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  14 to 34 only amazon logo k liye */
+.nav_logo {
+    height: 40px;
+    width: 120px;
+}
+
+.logo {
+    background-image: url("./amazonimg.png");
+    background-size: cover;
+    height: 40px;
+
+
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2.5px solid white;
+    border-radius: 2px;
+}
+
+/* 37 to 51 address k liye */
+.address_icon {
+    display: flex;
+
+}
+
+.address_icon_para {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.address_deliver_para {
+    margin-left: 17px;
+}
+
+/* 54 to 86 search k liye */
+.nav_search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 177, 58);
+    width: 550px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search_select {
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 40px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.search_input {
+    width: 100%;
+    font-size: 1.1rem;
+    border: none;
+
+}
+
+.search_icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black
+}
+
+.nav_search:hover {
+    border: 2px solid rgb(255, 167, 4);
+}
+
+.search_icon:hover {
+    background-color: rgba(255, 167, 4, 1);
+}
+
+/* 89 to 103 both signin and order wala part */
+.both_sign_and_return {
+    font-size: 0.7rem;
+}
+
+.both_account_and_order {
+    font-weight: bold;
+}
+
+/* 103 to 117 tk cart wala part*/
+.nav_cart {
+    display: flex;
+}
+
+.nav_cart i {
+    font-size: 30px;
+}
+
+.cart_para {
+    font-weight: bold;
+    padding-top: 12px;
+}  
+
+/* start panel designing */
+
+.panel {
+height: 50px;
+background-color: #222f3d;
+display: flex;
+color: #f3f3f3;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+/* 132 to  */
+.panel_all {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 4.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.panel_all p {
+    padding-left: 2px;
+    font-weight: bold;
+  
+    
+}
+
+/*  */
+.panel_options {
+    width: 95%;
+    font-size: 0.9rem;
+    
+}
+
+.panel_options p {
+    display: inline; 
+    padding: 15px 15px 17px 15px;
+     
+}
+
+.border_panel:hover {
+    border: 1px solid white ;
+    
+}
+
+.panel_options p:hover {
+    border: 1px solid white ;
+}
+
+
+/* now time to design */
+/* Main Section */
+
+/* 175 to image k liye starting walli */
+.main_section {
+    background-image: url("./amazonbackground.jpg");
+    height: 300px;
+    background-size: cover;
+    /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7) 100%); */
+    
+    
+}
+
+/*  shopping intro k liye */ 
+.shopping_intro {
+    /* background-image: url("./amazonbackground.jpg");
+    height: 600px;
+    background-size: cover; */
+    background-color: rgb(135, 219, 222);
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+
+}
+
+.box {
+    height: 350px;
+    /* border:  2px solid black ; */
+    padding: 5px;
+    width: 23%;
+    margin-top: 10px;
+    background-color: white;
+    
+}
+
+/* .box1_img1 img {
+    height: 110px;
+    padding-left: 40px;
+    margin: 10px;
+    
+} */
+
+.box  p {
+    text-align: center;
+    
+    
+}
+
+.box1_img1 img {
+    height: 270px;
+    width: 325px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.box2_img1 img {
+    height: 270px;
+    width: 325px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+
+.box h2 {
+    font-family:sans-serif;
+}
+
+.box3_img1 img {
+    height: 270px;
+    width: 325px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 25px;
+}
+
+.box4_img1 img{
+    height: 270px;
+    width: 325px;
+    margin-left: 10px;
+    margin-right: 5px;
+    /* background-size: cover; */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* footor start  */
+
+footer {
+    margin-top: 15px;
+}
+.foot_panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.foot_panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.foot_panel2 p {
+    font-size: 1.5rem;
+}
+
+ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+
+.foot_panel3 {
+    background-color: #222f3d;
+    color: white;
+    border: 2px solid white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50%;
+    padding-top: 15px;
+
+}
+
+.logo2 i {
+     font-size: 2rem;
+     
+}
+
+.foot_panel4 {
+    background-color: black;
+    color:white;
+    height: 80px;
+    font-size: 15px;
+    text-align: center;
+}
+.pages {
+    padding-top: 20px;
+}
+
+.pages a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    padding-top: 5px;
+}
